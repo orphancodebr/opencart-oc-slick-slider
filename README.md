@@ -1,7 +1,6 @@
 # Descrição
 
-> Módulo OC-Slick slider para Opencart, esse módulo não substitui o módulo padrão do Opencart, é só mais uma opção.
-
+ Módulo OC-Slick slider para Opencart, esse módulo não substitui o módulo padrão do Opencart, é só mais uma opção.
 
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/orphancodebr/opencart-oc-slick-slider/blob/main/LICENSE)
@@ -11,6 +10,9 @@
 
  1. Na administração da loja acesse o menu **Extensões→Instalador** (Extensions→Installer), clique no botão **Upload**, selecione o arquivo **opencart-oc-slick-slider.ocmod.zip** e aguarde a conclusão da instalação automática.
  2. Após a instalação, acesse o menu **Extensões→Módulos** (Extensions→Modules) e a habilite módulo OC-Slick.
+
+### Compatíbilidade
+O módulo foi testado no Opencart 3.0
 
 ### Dúvidas
 
