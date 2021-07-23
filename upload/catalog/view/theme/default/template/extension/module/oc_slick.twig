@@ -1,0 +1,19 @@
+<div id="banner-top" class="carousel-nav-{{ module }}">
+      {% for banner in banners %}
+      <div>{% if banner.link %}<a href="{{ banner.link }}"><img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-fluid" /></a>{% else %}<img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-fluid" />{% endif %}</div>
+      {% endfor %}
+</div>
+<script type="text/javascript"><!--
+jQuery(document).ready(function() {
+  var carouselnav = jQuery('.carousel-nav-{{ module }}');
+	carouselnav.slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		swipeToSlide: true,
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 10000
+	});
+});
+//--></script>
